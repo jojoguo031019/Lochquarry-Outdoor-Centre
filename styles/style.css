@@ -1,0 +1,150 @@
+/* ===== basic ===== */
+ 
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    background: #f5f5f3;
+    }
+
+/* ===== Header ===== */
+    header {
+    background: #95b21f;
+    height: 60px;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    }
+
+/* ===== Logo ===== */
+    .logo {
+    float: left;
+    }
+
+    .logo img {
+    height: 60px;
+    }
+
+/* ===== nav ===== */
+    nav {
+    float: right;
+    margin-top: 20px;          
+    }
+
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    nav li {
+    float: left;             
+    margin-right: 40px;
+    }
+
+/* ===== Banner ===== */
+    .banner{               
+    height: 450px;
+    width: 1120px;
+    margin: auto;        
+    }
+
+    .banner img {
+    width: 100%;                 
+    height: 450px;
+    object-fit: cover;         
+    }
+
+
+/* ===== Phase ===== */
+    .phase{
+    width: 1100px;      
+    margin:auto;        
+    padding: 20px;          
+    }
+    .phase h2 {
+    font-size: 32px;
+    }
+
+    .phase p {
+    font-size: 18px;
+    line-height: 1.6;      
+    }
+    .phase li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 14px;   
+    }
+
+/* ===== Gallery ===== */
+    .gallery {
+    width: 1100px;           /* 照片墙总宽度 */
+    margin: auto;          /* 整块居中 */
+    }
+
+    .gallery img {
+    width: 350px;            /* 每张宽 350px */
+    height: 300px;           /* 每张高 300px */
+    object-fit: cover;       /* 裁剪，不变形 */
+    padding: 6px;             /* 四周各留 5px，照片之间就有 10px 间距 */
+    }
+
+/* ===== Footer ===== */
+    footer {
+    background: #95b21f;
+    padding: 10px;
+    height: 60px;
+    width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    }
+
+    .social {
+    float: right;            /* 社交图标靠右 */
+    }
+
+    .social img {
+    width: 40px;
+    height: 40px;
+    }
+
+ /* ===== Activity===== */
+    .activity{
+    width: 1100px;
+    margin: auto;          /* 整块居中 */
+    }
+
+    .item {
+    height: 300px;;       /* 包住浮动的图片 */
+    padding-top: 50px;
+    }
+
+    .item h3 {
+    font-size: 28px;
+    }
+
+    .item li {
+    font-size: 18px;
+    line-height: 1.6;
+    }
+
+    .item p{
+    font-size: 18px;
+    line-height: 1.6;
+    }
+
+    .item img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    }
+
+    .left {
+    float: left;            /* 图片在左，文字在右 */
+    padding-right: 30px;     /* 和文字隔开 */
+    }
+
+    .right {
+    float: right;           /* 图片在右，文字在左 */
+    padding-left: 30px;
+    }
+
