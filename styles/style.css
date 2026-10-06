@@ -77,15 +77,15 @@
 
 /* ===== Gallery ===== */
     .gallery {
-    width: 1100px;           /* 照片墙总宽度 */
-    margin: auto;          /* 整块居中 */
+    width: 1100px;          
+    margin: auto;          
     }
 
     .gallery img {
-    width: 350px;            /* 每张宽 350px */
-    height: 300px;           /* 每张高 300px */
-    object-fit: cover;       /* 裁剪，不变形 */
-    padding: 6px;             /* 四周各留 5px，照片之间就有 10px 间距 */
+    width: 350px;            
+    height: 300px;           
+    object-fit: cover;       
+    padding: 6px;             
     }
 
 /* ===== Footer ===== */
@@ -99,7 +99,7 @@
     }
 
     .social {
-    float: right;            /* 社交图标靠右 */
+    float: right;           
     }
 
     .social img {
@@ -110,11 +110,11 @@
  /* ===== Activity===== */
     .activity{
     width: 1100px;
-    margin: auto;          /* 整块居中 */
+    margin: auto;          
     }
 
     .item {
-    height: 300px;;       /* 包住浮动的图片 */
+    height: 300px;;       
     padding-top: 50px;
     }
 
@@ -139,12 +139,12 @@
     }
 
     .left {
-    float: left;            /* 图片在左，文字在右 */
-    padding-right: 30px;     /* 和文字隔开 */
+    float: left;            
+    padding-right: 30px;     
     }
 
     .right {
-    float: right;           /* 图片在右，文字在左 */
+    float: right;           
     padding-left: 30px;
     }
 
